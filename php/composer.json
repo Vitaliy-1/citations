@@ -1,0 +1,19 @@
+{
+	"name": "vitaliy/citations",
+	"description": "description",
+	"minimum-stability": "stable",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Vitaliy-1"
+		}
+	],
+	"require": {
+		"php-ai/php-ml": "^0.9.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"CitParser\\": "src/Parser"
+		}
+	}
+}
